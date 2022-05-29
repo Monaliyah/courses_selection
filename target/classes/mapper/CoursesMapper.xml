@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.courses_selection.mapper.CoursesMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.me.courses_selection.pojo.Courses">
+        <id column="cid" property="cid" />
+        <result column="cname" property="cname" />
+        <result column="tid" property="tid" />
+        <result column="tname" property="tname" />
+        <result column="subtype" property="subtype" />
+        <result column="lasted_date" property="lastedDate" />
+        <result column="max_students" property="maxStudents" />
+        <result column="now_students" property="nowStudents" />
+        <result column="credits" property="credits" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        cid, cname, tid, tname, subtype, lasted_date, max_students, now_students, credits
+    </sql>
+
+    <select id="getAllCoursesVo" resultType="com.me.courses_selection.vo.pojo.CoursesVo">
+        select
+            cid,
+            cname,
+            tid,
+            tname,
+            subtype,
+            max_students,
+            now_students,
+            credits
+        from
+	        courses
+    </select>
+
+    <select id="getNewCid" resultType="java.lang.Long">
+        select max(LAST_INSERT_ID(cid)) from courses;
+    </select>
+
+    <select id="getOneCoursesVoByCid" resultType="com.me.courses_selection.vo.pojo.CoursesVo">
+        select
+            o.cid,
+            o.cname,
+            o.tid,
+            o.tname,
+            o.subtype,
+            o.max_students,
+            o.now_students,
+            o.credits
+        from
+	        courses as o
+	    where
+	        o.cid=#{cid}
+    </select>
+
+    <select id="getCoursesVosByTid" resultType="com.me.courses_selection.vo.pojo.CoursesVo">
+        select
+            *
+        from
+	        courses as o
+	    where
+	        o.tid=#{tid}
+    </select>
+</mapper>

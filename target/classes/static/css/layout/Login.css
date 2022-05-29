@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #50a3a2;
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    padding-left: 10%;
+    width: auto;
+    height: 100%;
+    padding-top: 120px;
+    overflow: hidden;
+}
+.Img-Login-login-jpg{
+    position:absolute;
+    max-width: 100%;
+    height: auto;
+    width: 700px;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px lightgrey;
+}
+.Img-Login-logo-png{
+    width:100px;
+    height: auto;
+}
+
+.roll {
+    cursor: pointer;
+    /* 3D变形 */
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+
+}
+.roll img {
+    -webkit-animation: my 10s infinite;
+    animation: my 10s infinite;
+    /*transition-timing-function: linear;*/
+}
+
+.roll img:first-child {
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+@-webkit-keyframes my {
+    0% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    60% {
+        transform: rotateY(180deg);
+    }
+    90% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+@keyframes my {
+    0% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    60% {
+        transform: rotateY(180deg);
+    }
+    90% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员页面</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/layout/RootHome.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common/common.css"/>
+
+
+    <script type="text/javascript" src="/utils/jquery.min.js"></script>
+    <script type="text/javascript" src="/utils/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/utils/jquery-validation/localization/messages_zh.min.js"></script>
+    <script type="text/javascript" src="/utils/layer/layer.js"></script>
+
+    <script type="text/javascript" src="/js/md5.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+    <script type="text/javascript" src="/js/RootHome.js"></script>
+
+</head>
+<body>
+<div class="Block-Body">
+    <div class="Block-Main-Top-1">
+        <div class="Block-Normal-1">
+            <ul class="Ul-Normal-1">
+                <li id="Root_Name"></li>
+                <li id="Root_Rid"></li>
+            </ul>
+        </div>
+        <div class="Block-Normal-4"></div>
+    </div>
+    <div class="Block-Main-Normal-1">
+        <div class="Block-Normal-2">
+            <ul class="Ul-Clickable-1">
+                <li id="Root_Static" onclick="toStatic()"><label>基本信息</label></li>
+                <li id="Root_SetOne" onclick="toSetOne()"><label>单独操作</label></li>
+                <li id="Root_Settings" onclick="toSettings()"><label>后台数据设置</label></li>
+            </ul>
+        </div>
+        <div class="Block-Main-Normal-2">
+            <div></div>
+            <div class="Block-TImgInside-2" id="img1">
+                <img class="Img-login-login-jpg" src="/img/login_1.jpg">
+            </div>
+            <div id="Static" style="display: none">
+                <table class="Table-Normal-1">
+                    <tr>
+                        <td>无</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="SetOne" style="display: none">
+                <form name="SetOneForm" id="SetOneForm" method="post" class="Form-Normal-1">
+                    <div class="Block-Normal-5">
+                        <div class="Block-LabelInside-1">
+                            <label>请输入id</label>
+                        </div>
+                        <div class="Block-InputInside-2">
+                            <input id="id" name="id" class="Input-Normal-1" type="text" placeholder="请输入id" required="true"/>
+                        </div>
+                    </div>
+                    <div style="float: left ;margin-left: 120px">
+                        <td><button class="Button-Normal-1" style="height: 45px;width: 120px" type="button" onclick="doSearchOne()">查询</button></td>
+                    </div>
+                    <div style="margin-left: 120px">
+                    </div>
+                </form>
+                <div style="padding: 20px 50px 0 0" id="result">
+                    <table class="Table-Normal-1">
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="Settings" style="display: none">
+4
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

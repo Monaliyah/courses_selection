@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/layout/CoursesList.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/common/common.css}"/>
+
+
+    <script type="text/javascript" th:src="@{/utils/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/utils/jquery-validation/jquery.validate.min.js}"></script>
+    <script type="text/javascript" th:src="@{/utils/jquery-validation/localization/messages_zh.min.js}"></script>
+    <script type="text/javascript" th:src="@{/utils/layer/layer.js}"></script>
+    <script type="text/javascript" th:src="@{/js/common.js}"></script>
+    <script type="text/javascript" th:src="@{/js/CoursesList.js}"></script>
+
+</head>
+<body>
+<div class="Block-Body">
+    <div class="Block-Main-Top-3">
+        <form class="Form-Search-1" method="post">
+            <table class="Table-Normal-1" id="SearchTable" >
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button class="Button-Normal-1" style="width: 120px;height: 45px;" type="reset" onclick="doReSet()">重置</button></td>
+                    <td><button class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="doSearch()">筛选</button></td>
+                </tr>
+                <tr style="display: none">
+                    <td><label>已选择项</label></td>
+                </tr>
+                <tr style="display: none"></tr>
+                <tr id="Max">
+                    <td>
+                        <div class="Block-LabelInside-1" style="width:150px;">
+                            <label>是否已被选满</label>
+                        </div>
+                    </td>
+                    <td>
+                        <button value="1" id="NotButton" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('NotButton','NotInput')">有剩余</button>
+                        <input id="NotInput" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="2" id="YesButton" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('YesButton','YesInput')">没有剩余</button>
+                        <input id="YesInput" type="checkbox" style="display: none">
+                    </td>
+                </tr>
+                <tr id="Session">
+                    <td>
+                        <div class="Block-LabelInside-1" style="width:150px;">
+                            <label>年级</label>
+                        </div>
+                    </td>
+                    <td>
+                        <button value="1" id="Session1Button" th:text="${Year}-3" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('Session1Button','Session1Input')"></button>
+                        <input id="Session1Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="2" id="Session2Button" th:text="${Year}-2" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('Session2Button','Session2Input')"></button>
+                        <input id="Session2Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="3" id="Session3Button" th:text="${Year}-1" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('Session3Button','Session3Input')"></button>
+                        <input id="Session3Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="4" id="Session4Button" th:text="${Year}" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('Session4Button','Session4Input')"></button>
+                        <input id="Session4Input" type="checkbox" style="display: none">
+                    </td>
+                </tr>
+                <tr id="SubType1">
+                    <td>
+                        <div class="Block-LabelInside-1" style="width:150px;">
+                            <label>课程类型</label>
+                        </div>
+                    </td>
+                    <td>
+                        <button value="01" id="01Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('01Button','01Input')">理学类</button>
+                        <input id="01Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="02" id="02Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('02Button','02Input')">工学类</button>
+                        <input id="02Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="03" id="03Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('03Button','03Input')">哲学类</button>
+                        <input id="03Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="04" id="04Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('04Button','04Input')">历史学类</button>
+                        <input id="04Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="05" id="05Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('05Button','05Input')">文学类</button>
+                        <input id="05Input" type="checkbox" style="display: none">
+                    </td>
+                </tr>
+                <tr id="SubType2">
+                    <td></td>
+                    <td>
+                        <button value="06" id="06Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('06Button','06Input')">艺术学类</button>
+                        <input id="06Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="07" id="07Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('07Button','07Input')">教育学类</button>
+                        <input id="07Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="08" id="08Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('08Button','08Input')">法学类</button>
+                        <input id="08Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="09" id="09Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('09Button','09Input')">经济学类</button>
+                        <input id="09Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="10" id="10Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('10Button','10Input')">管理学类</button>
+                        <input id="10Input" type="checkbox" style="display: none">
+                    </td>
+                </tr>
+                <tr id="SubType3">
+                    <td></td>
+                    <td>
+                        <button value="11" id="11Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('11Button','11Input')">农学类</button>
+                        <input id="11Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="12" id="12Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('12Button','12Input')">医学类</button>
+                        <input id="12Input" type="checkbox" style="display: none">
+                    </td>
+                    <td>
+                        <button value="13" id="13Button" class="Button-Normal-1" style="width: 120px;height: 45px;" type="button" onclick="button_onclick('13Button','13Input')">军事学类</button>
+                        <input id="13Input" type="checkbox" style="display: none">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <div style="margin-left:50%;">
+            <button type="button" class="Button-Normal-2" style="width: 100px;height: 40px;" id="toggleButton" onclick="toggleByHeight()">收起</button>
+        </div>
+    </div>
+    <div class="Block-Main-Normal-4" style="margin-top: 40px;" id="hey">
+        <table class="Table-Normal-1" id="List">
+            <tr></tr>
+        </table>
+
+    </div>
+</div>
+</body>
+</html>

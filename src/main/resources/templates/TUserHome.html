@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人页面</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/layout/TUserHome.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common/common.css"/>
+
+
+
+    <script type="text/javascript" src="/utils/jquery.min.js"></script>
+    <script type="text/javascript" src="/utils/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/utils/jquery-validation/localization/messages_zh.min.js"></script>
+    <script type="text/javascript" src="/utils/layer/layer.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+    <script type="text/javascript" src="/js/TUserHome.js"></script>
+
+
+
+</head>
+<body>
+<div class="Block-Body">
+    <div class="Block-Main-Top-1">
+        <div class="Block-Normal-1">
+            <ul class="Ul-Normal-1">
+                <li id="TUser_Name"></li>
+                <li id="TUser_Tid"></li>
+            </ul>
+        </div>
+        <div class="Block-Normal-4"></div>
+    </div>
+    <div class="Block-Main-Normal-1">
+        <div class="Block-Normal-2">
+            <ul class="Ul-Clickable-1">
+                <li id="TUserStatic" onclick="toStatic()"><label>基本信息</label></li>
+                <li id="TUserAddCourses" onclick="toAddCourses()"><label>添加课程</label></li>
+                <li id="TUserCoursesList" onclick="toCoursesList()"><label>已开课程</label></li>
+                <li id="TUserOthers"><label>其他信息</label></li>
+            </ul>
+        </div>
+        <div class="Block-Main-Normal-2">
+            <div></div>
+            <div class="Block-TImgInside-2" id="img1">
+                <img class="Img-login-login-jpg" src="/img/login_1.jpg">
+            </div>
+            <div id="Static" style="display: none">
+                <table class="Table-Normal-1">
+                    <tr>
+                        <td>无</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="AddCourses" style="display: none">
+                <form name="AddCoursesForm" id="AddCoursesForm" method="post" class="Form-Normal-1">
+                    <div class="Block-Normal-5">
+                        <label style="margin-left:190px;text-align: center;font-size: 27px;font-weight: 500;">添加课程</label>
+                    </div>
+                    <div class="Block-Normal-5">
+                        <div class="Block-LabelInside-1">
+                            <label>请输入课程名</label>
+                        </div>
+                        <div class="Block-InputInside-2">
+                            <input id="cname" name="cname" class="Input-Normal-1" type="text" placeholder="如'C语言程序设计A'" required="true"/>
+                        </div>
+                    </div>
+                    <div class="Block-Normal-5">
+                        <div class="Block-LabelInside-1">
+                            <label>请输入目标学生数</label>
+                        </div>
+                        <div  class="Block-InputInside-2">
+                            <input id="MaxStudents" name="MaxStudents" class="Input-Normal-1" type="text" placeholder="30" required="true" maxlength="3" minlength="2"/>
+                        </div>
+                    </div>
+                    <div class="Block-Normal-5">
+                        <div class="Block-LabelInside-1">
+                            <label>请选择课程类型</label>
+                        </div>
+                        <div class="Block-SelectedInside-1">
+                            <select name='SubType'>
+                                <option value='1' id="Subtype1">理学类</option>
+                                <option value='2' id="Subtype2">工学类</option>
+                                <option value='3' id="Subtype3">哲学类</option>
+                                <option value='4' id="Subtype4">历史学类</option>
+                                <option value='5' id="Subtype5">文学类</option>
+                                <option value='6' id="Subtype6">艺术学类</option>
+                                <option value='7' id="Subtype7">教育学类</option>
+                                <option value='8' id="Subtype8">法学类</option>
+                                <option value='9' id="Subtype9">经济学类</option>
+                                <option value='10' id="Subtype10">管理学类</option>
+                                <option value='11' id="Subtype11">农学类</option>
+                                <option value='12' id="Subtype12">医学类</option>
+                                <option value='13' id="Subtype13">军事学类</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="Block-Normal-5">
+                        <div class="Block-LabelInside-1">
+                            <label>请输入课程学分</label>
+                        </div>
+                        <div class="Block-InputInside-2">
+                            <input id="Credits" name="Credits" class="Input-Normal-1" placeholder="浮点数如2.00" required="true">
+                        </div>
+                    </div>
+                    <div class="Block-Normal-5">
+                        <div class="Block-LabelInside-1">
+                            <label>请选择课程开设年级</label>
+                        </div>
+                        <div class="Block-SelectedInside-1">
+                            <select name='Session'>
+                                <option name='Session1' id="Session1"></option>
+                                <option name='Session2' id="Session2"></option>
+                                <option name='Session3' id="Session3"></option>
+                                <option name='Session4' id="Session4"></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="flex-direction: row">
+                        <div style="float: left ;margin-left: 120px">
+                            <button class="Button-Normal-1" style="height: 45px;width: 100px" type="reset" onclick="reset()">重置</button>
+                        </div>
+                        <div style="margin-left: 300px">
+                            <button class="Button-Normal-1" style="height: 45px;width: 100px" type="submit" onclick="doAddCourses()">添加</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="Courses" style="display: none">
+                <table class="Table-Normal-1" id="CoursesList">
+                    <tr></tr>
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

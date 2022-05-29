@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人页面</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/layout/SUserHome.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common/common.css"/>
+
+
+
+    <script type="text/javascript" src="/utils/jquery.min.js"></script>
+    <script type="text/javascript" src="/utils/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/utils/jquery-validation/localization/messages_zh.min.js"></script>
+    <script type="text/javascript" src="/utils/layer/layer.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+    <script type="text/javascript" src="/js/SUserHome.js"></script>
+
+
+
+</head>
+<body>
+<div class="Block-Body">
+    <div class="Block-Main-Top-1">
+        <div class="Block-Normal-1">
+            <ul class="Ul-Normal-1">
+                <li id="SUser_Name"></li>
+                <li id="SUser_Sid"></li>
+            </ul>
+        </div>
+        <div class="Block-Normal-4"></div>
+    </div>
+    <div class="Block-Main-Normal-1">
+        <div class="Block-Normal-2">
+            <ul class="Ul-Clickable-1">
+                <li id="SUserStatic" onclick="toStatic()"><label>基本信息</label></li>
+                <li id="SUserSchoolRoll" onclick="toSchoolRoll()"><label>学籍信息</label></li>
+                <li id="SUserPoint" onclick="toPointList()"><label>成绩信息</label></li>
+                <li id="SUserChosenCourses" onclick="toCoursesSelection()"><label>课程信息</label></li>
+            </ul>
+        </div>
+        <div class="Block-Main-Normal-2" >
+            <div class="Block-SImgInside-2" id="img1">
+                <img class="Img-login-login-jpg" src="/img/login_1.jpg">
+            </div>
+            <div id="Static" style="display: none">
+                <table class="Table-Normal-1">
+                    <tr>
+                        <td>性别</td>
+                        <td id="SUserSex"></td>
+                    </tr>
+                    <tr>
+                        <td>民族</td>
+                        <td id="SUserNationality"></td>
+                    </tr>
+                    <tr>
+                        <td>证件类型</td>
+                        <td id="SUserDocumentType"></td>
+                    </tr>
+                    <tr>
+                        <td>证件号码</td>
+                        <td id="SUserDocumentId"></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="SchoolRoll" style="display: none">
+                <table class="Table-Normal-1">
+                    <tr>
+                        <td>年级</td>
+                        <td id="SUserGrade"></td>
+                    </tr>
+                    <tr>
+                        <td>学院</td>
+                        <td id="SUserCollegeName"></td>
+                    </tr>
+                    <tr>
+                        <td>专业</td>
+                        <td id="SUserProfessionalName"></td>
+                    </tr>
+                    <tr>
+                        <td>班级</td>
+                        <td id="SUserClassName"></td>
+                    </tr>
+                    <tr>
+                        <td>类型</td>
+                        <td id="SUserCategory"></td>
+                    </tr>
+                    <tr>
+                        <td>报到情况</td>
+                        <td>第一学年</td>
+                        <td id="SUserRegister1"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>第二学年</td>
+                        <td id="SUserRegister2"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>第三学年</td>
+                        <td id="SUserRegister3"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>第四学年</td>
+                        <td id="SUserRegister4"></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="Point" style="display: none">
+                <table class="Table-Normal-1" id="PointList">
+                    <tr></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

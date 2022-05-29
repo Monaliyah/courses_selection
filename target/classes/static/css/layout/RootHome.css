@@ -1,0 +1,25 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fcf8e3;
+}
+.Block-Body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: white;
+    margin:50px 120px 0 120px;
+    padding: 0 0 20px 0;
+    width: 84%;
+    min-width: 800px;
+    min-height: 680px;
+    z-index: 1;
+    overflow: auto;
+}
+.Form-Normal-1{
+    padding: 20px 0 50px 10%;
+    flex-direction: column;
+    width:450px;
+}

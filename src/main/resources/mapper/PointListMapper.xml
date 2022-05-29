@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.courses_selection.mapper.PointListMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.me.courses_selection.vo.pojo.PointOfCourses">
+        <id column="cid" property="cid" />
+        <result column="cname" property="cname" />
+        <result column="tid" property="tid" />
+        <result column="tname" property="tname" />
+        <result column="total_score" property="totalScore" />
+        <result column="regular_score" property="regularScore" />
+        <result column="term_score" property="termScore" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        cid, cname, tid, tname, total_score, regular_score, term_score
+    </sql>
+
+    <select id="getPointListBySid" resultType="com.me.courses_selection.vo.pojo.PointOfCourses">
+        select
+            orders.*,
+            courses.cname,
+            courses.tname
+        from
+            orders
+        left join
+            courses
+        on
+            orders.cid=courses.cid;
+    </select>
+</mapper>

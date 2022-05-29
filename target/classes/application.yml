@@ -1,0 +1,74 @@
+spring:
+  web:
+    resources:
+      add-mappings: true
+      cache:
+        cachecontrol:
+          max-age: 3600
+      chain:
+        cache: true
+        enabled: true
+        compressed: true
+        html-application-cache: true
+      static-location: classpath:/static/
+  thymeleaf:
+    cache: false
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/courses_selection?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    username: root
+    password: June010622
+
+    hikari:
+      pool-name: DataHikariCP
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: select 1
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
+    timeout: 10000ms
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: 10000ms
+        max-idle: 200
+        min-idle: 5
+    password: June010622
+  rabbitmq:
+    host: localhost
+    username: June
+    password: June010622
+    virtual-host: /work
+    port: 5672
+    listener:
+      simple:
+        auto-startup: true
+        max-concurrency: 10
+        prefetch: 1
+        default-requeue-rejected: true
+    template:
+      retry:
+        enabled: true
+        initial-interval: 1000ms
+        max-attempts: 3
+        max-interval: 10000ms
+        multiplier: 1
+mybatis-plus:
+  #mapper.xml
+  mapper-location: classpath*:/mapper/*Mapper.xml
+  type-aliases-package: com.me.courses_selection.pojo
+#mybatis sql
+logging:
+  level:
+    com.me.courses_selection.mapper: debug
+
+
+
+

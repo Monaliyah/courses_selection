@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.courses_selection.mapper.SInfStaticMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.me.courses_selection.pojo.SInfStatic">
+        <id column="sid" property="sid" />
+        <result column="sex" property="sex" />
+        <result column="documenttype" property="documentType" />
+        <result column="documentid" property="documentId" />
+        <result column="nationality" property="nationality" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        sid, sex, documenttype, documentid, nationality
+    </sql>
+
+    <select id="getOneSInfStaticBySid" resultType="com.me.courses_selection.pojo.SInfStatic">
+        select
+            sid, sex, documenttype, documentid, nationality
+        from
+	        sinfstatic as s
+	    where
+	        s.sid=#{sid}
+    </select>
+</mapper>

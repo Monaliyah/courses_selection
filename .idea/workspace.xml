@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d380a157-b2d7-4cd2-b6e5-0780597686f8" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="courses_selection" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/controller/CoursesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Login.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/RootHome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/RootHome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/CoursesSelectionApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="13" selection-start-line="13" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/mapper/PointListMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/pojo/Root.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/common.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/test.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/layout/Login.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/Login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/ArgumentResolver/CoursesArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/AccessLimit/AccessLimitIntercepor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/Login.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/Return/RespBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/utils/CookieUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/ArgumentResolver/TUserArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/TUserSelfPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/TUserSelfPage.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/SUserSelfPage.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/SUserSelfPage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/utils/idUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/SUserHome.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/TUserHome.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/SUserHome.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/TUserHome.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/controller/CoursesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/ICoursesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/impl/CoursesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/mapper/CoursesMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CoursesMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/ArgumentResolver/LoginVoArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/ArgumentResolver/SUserArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/ArgumentResolver/RootArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/controller/RootController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/layout/RootHome.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/layout/TUserHome.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/impl/RootServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/common/common.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/pojo/RegistVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/ArgumentResolver/RegistVoArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/controller/SUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/ISUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/impl/SUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/ITUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/controller/TUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/impl/TUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/utils/toBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/controller/LoginPermission.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/utils/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/me/courses_selection/utils/Lexer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/RootHome.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/RootHome.js" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="courses_selection" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="courses_selection" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="courses_selection" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-40" />
+    <option name="width" value="1335" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="courses_selection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courses_selection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/桌面/cloud-demo" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MyLib\Web\courses_selection\src\main\resources\static\utils" />
+      <recent name="F:\MyLib\Web\courses_selection\src\main\resources\static\utils\" />
+      <recent name="F:\MyLib\Web\courses_selection\src\main\resources\static\js" />
+      <recent name="F:\MyLib\Web\courses_selection\src\main\resources\templates" />
+      <recent name="F:\MyLib\Web\courses_selection\src\main\resources\templates\html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyLib\Web\courses_selection\src\main\resources\static\img" />
+      <recent name="F:\MyLib\Web\courses_selection\src\main\resources\mapper" />
+      <recent name="F:\MyLib\Web\courses_selection\src\main\java\com\me\courses_selection" />
+      <recent name="F:\MyLib\Web\courses_selection\src\main\java\com\me\courses_selection\config\AccessLimit" />
+      <recent name="F:\MyLib\Web\courses_selection\src\main\java\com\me\courses_selection\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.me.courses_selection.controller" />
+      <recent name="com.me.courses_selection.config.AccessLimit" />
+      <recent name="com.me.courses_selection.pojo" />
+      <recent name="com.me.courses_selection.mapper" />
+      <recent name="com.me.courses_selection.utils" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.me.courses_selection.validator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Lexer">
+    <configuration name="Lexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.me.courses_selection.utils.Lexer" />
+      <module name="courses_selection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.me.courses_selection.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.me.courses_selection.utils.MD5Util" />
+      <module name="courses_selection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.me.courses_selection.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoursesSelectionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="courses_selection" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.me.courses_selection.CoursesSelectionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Lexer" />
+        <item itemvalue="Application.MD5Util" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d380a157-b2d7-4cd2-b6e5-0780597686f8" name="Default Changelist" comment="" />
+      <created>1641994563735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641994563735</updated>
+      <workItem from="1641994577516" duration="2422000" />
+      <workItem from="1642039967493" duration="7828000" />
+      <workItem from="1642047874365" duration="7200000" />
+      <workItem from="1642063650897" duration="70000" />
+      <workItem from="1642064340629" duration="13221000" />
+      <workItem from="1642135014533" duration="2040000" />
+      <workItem from="1642252248973" duration="1483000" />
+      <workItem from="1642299313982" duration="3670000" />
+      <workItem from="1642310542930" duration="121000" />
+      <workItem from="1642314923875" duration="615000" />
+      <workItem from="1642663737335" duration="14053000" />
+      <workItem from="1642680430559" duration="604000" />
+      <workItem from="1644728275526" duration="10624000" />
+      <workItem from="1644768336364" duration="20252000" />
+      <workItem from="1644884133525" duration="11071000" />
+      <workItem from="1644896563478" duration="1571000" />
+      <workItem from="1644975265718" duration="6382000" />
+      <workItem from="1645061856010" duration="12570000" />
+      <workItem from="1645076988784" duration="3367000" />
+      <workItem from="1645152446137" duration="11925000" />
+      <workItem from="1645237393231" duration="6083000" />
+      <workItem from="1645333672932" duration="32208000" />
+      <workItem from="1645512225421" duration="3209000" />
+      <workItem from="1645581676558" duration="9335000" />
+      <workItem from="1645670875837" duration="8178000" />
+      <workItem from="1645845559605" duration="316000" />
+      <workItem from="1646350624694" duration="23100000" />
+      <workItem from="1646439755011" duration="10934000" />
+      <workItem from="1646451544822" duration="843000" />
+      <workItem from="1646454462520" duration="26855000" />
+      <workItem from="1646525721849" duration="19078000" />
+      <workItem from="1646832556557" duration="1482000" />
+      <workItem from="1647160701581" duration="5743000" />
+      <workItem from="1647243244092" duration="16800000" />
+      <workItem from="1647322367515" duration="2332000" />
+      <workItem from="1647324755004" duration="4655000" />
+      <workItem from="1647337949976" duration="67000" />
+      <workItem from="1647652846766" duration="277000" />
+      <workItem from="1647654958400" duration="259000" />
+      <workItem from="1647676575028" duration="1441000" />
+      <workItem from="1647678228143" duration="1000" />
+      <workItem from="1647700715876" duration="13000" />
+      <workItem from="1648891770071" duration="2918000" />
+      <workItem from="1648949666622" duration="4835000" />
+      <workItem from="1649400211812" duration="190000" />
+      <workItem from="1649489792744" duration="40000" />
+      <workItem from="1649905869942" duration="2696000" />
+      <workItem from="1649928137814" duration="130000" />
+      <workItem from="1650104095956" duration="699000" />
+      <workItem from="1650203626392" duration="111000" />
+      <workItem from="1650260446480" duration="2792000" />
+      <workItem from="1650361569318" duration="13857000" />
+      <workItem from="1650510563293" duration="5340000" />
+      <workItem from="1650534667993" duration="10620000" />
+      <workItem from="1650547408670" duration="235000" />
+      <workItem from="1650590170992" duration="7488000" />
+      <workItem from="1650680093661" duration="10094000" />
+      <workItem from="1650712480250" duration="979000" />
+      <workItem from="1650788595751" duration="1687000" />
+      <workItem from="1650798927457" duration="1259000" />
+      <workItem from="1650853101460" duration="29000" />
+      <workItem from="1650854404900" duration="4418000" />
+      <workItem from="1651137527308" duration="1989000" />
+      <workItem from="1651373988073" duration="70000" />
+      <workItem from="1652072560946" duration="8411000" />
+      <workItem from="1652153046411" duration="9360000" />
+      <workItem from="1652261996635" duration="3516000" />
+      <workItem from="1652271453058" duration="2783000" />
+      <workItem from="1652315159830" duration="675000" />
+      <workItem from="1652320071913" duration="192000" />
+      <workItem from="1652333739205" duration="3458000" />
+      <workItem from="1652338428222" duration="457000" />
+      <workItem from="1652340792070" duration="8000" />
+      <workItem from="1652506247511" duration="5071000" />
+      <workItem from="1652581984771" duration="14000" />
+      <workItem from="1652582729321" duration="1198000" />
+      <workItem from="1652609862363" duration="447000" />
+      <workItem from="1652665792217" duration="3284000" />
+      <workItem from="1652679456808" duration="5768000" />
+      <workItem from="1652699940466" duration="5000000" />
+      <workItem from="1652918276695" duration="1399000" />
+      <workItem from="1652929268892" duration="618000" />
+      <workItem from="1652932110873" duration="2682000" />
+      <workItem from="1652937736546" duration="8000" />
+      <workItem from="1652937973993" duration="566000" />
+      <workItem from="1652970338081" duration="67000" />
+      <workItem from="1653046084866" duration="628000" />
+      <workItem from="1653058805132" duration="337000" />
+      <workItem from="1653123139175" duration="25000" />
+      <workItem from="1653187920134" duration="3593000" />
+      <workItem from="1653441478705" duration="1552000" />
+      <workItem from="1653467390037" duration="4556000" />
+      <workItem from="1653614428415" duration="4083000" />
+      <workItem from="1653746560118" duration="229000" />
+      <workItem from="1653789316406" duration="4410000" />
+      <workItem from="1653811378133" duration="615000" />
+      <workItem from="1653812575586" duration="1099000" />
+      <workItem from="1653832086223" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="452927000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49889624" visible="true" weight="0.21313673" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50110376" side_tool="true" weight="0.20978552" />
+      <window_info id="Web" order="7" sideWeight="0.50110376" side_tool="true" weight="0.20978552" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.36820084" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32914925" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.36820084" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.34449095" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="LuaCheck" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/impl/SUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/exception/GlobalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/md5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!block;n#Input_Password_Pattern#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/pojo/TUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/pojo/SInfStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/pojo/SInfSchoolRoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/pojo/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/pojo/Courses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/pojo/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/pojo/RegistVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/pojo/PointOfCourses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/pojo/LoginVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/pojo/FullList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/pojo/CoursesVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/layout/CoursesList.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/pojo/SUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/common/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3496">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PointListMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RootMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SInfSchoolRollMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SInfStaticMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CoursesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="3" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/impl/CoursesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/mapper/CoursesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/impl/OrdersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrdersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" selection-start-line="19" selection-start-column="3" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/service/ICoursesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/MQMessage/OrdersMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/config/RabbitMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/rabbitmq/MQSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/utils/UUIDUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/rabbitmq/MQReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/vo/pojo/AddOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/utils/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/TUserHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/utils/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/CoursesList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/controller/CoursesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/TUserHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/me/courses_selection/CoursesSelectionApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/CoursesList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="270" column="40" selection-start-line="270" selection-start-column="40" selection-end-line="270" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/RootHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/RootHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

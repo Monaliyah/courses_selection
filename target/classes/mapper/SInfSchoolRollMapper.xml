@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.courses_selection.mapper.SInfSchoolRollMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.me.courses_selection.pojo.SInfSchoolRoll">
+        <id column="sid" property="sid" />
+        <result column="grade" property="grade" />
+        <result column="collegename" property="collegeName" />
+        <result column="professionalname" property="professionalName" />
+        <result column="classname" property="className" />
+        <result column="registration" property="registration" />
+        <result column="category" property="category" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        sid, grade, collegename, professionalname, classname, registration, category
+    </sql>
+
+    <select id="getOneSInfSchoolRollBySid" resultType="com.me.courses_selection.pojo.SInfSchoolRoll">
+        select
+            sid, grade, collegename, professionalname, classname, registration, category
+        from
+	        sinfschoolroll as s
+	    where
+	        s.sid=#{sid}
+    </select>
+</mapper>

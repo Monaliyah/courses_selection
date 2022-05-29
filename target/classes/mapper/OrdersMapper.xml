@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.courses_selection.mapper.OrdersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.me.courses_selection.pojo.Orders">
+        <id column="oid" property="oid" />
+        <result column="sid" property="sid" />
+        <result column="cid" property="cid" />
+        <result column="total_score" property="totalScore" />
+        <result column="regular_score" property="regularScore" />
+        <result column="term_score" property="termScore" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        oid, sid, cid, total_score, regular_score, term_score
+    </sql>
+
+    <select id="getNewOid" resultType="java.lang.Long">
+        select max(LAST_INSERT_ID(oid)) from orders;
+    </select>
+
+    <select id="getOrdersListBySid" resultType="com.me.courses_selection.pojo.Orders">
+        select
+            oid, sid, cid, total_score, regular_score, term_score
+        from
+	        orders as o
+	    where
+	        o.sid=#{sid}
+    </select>
+</mapper>
